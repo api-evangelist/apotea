@@ -1,23 +1,46 @@
 aid: apotea
+
 name: Apotea
-description: 'Apotea is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Apotea is a Swedish online pharmacy offering a wide range of medicines, health and beauty products. The site provides fast, free shipping and a user-friendly shopping experience, with categories covering dermatology, allergy, eye care, and more. It operates under Swedish regulations and is listed on the Swedish Medicines Agency site. The company’s digital presence includes extensive product listings, a premium service, and a dedicated customer support portal.'
+
 url: https://raw.githubusercontent.com/api-evangelist/apotea/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
+
 x-tier: stub
+
 x-tier-reason: harvest
+
 specificationVersion: '0.20'
+
 created: '2026-09-25'
+
 modified: '2026-09-25'
+
 tags:
 - Company
-apis: []
+- Pharmacy
+- E-commerce
+- Health
+- Sweden
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/apotea-hosts.yml
+- type: Vendors
+  url: vendors/apotea-vendors.yml
+- type: DomainSecurity
+  url: security/apotea-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.apotea.se
+
+apis: []
