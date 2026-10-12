@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/apotea/integrations
+- https://n8n.io/integrations/apotea/
+- https://composio.dev/toolkits/apotea
+- https://monid.ai/tools/apotea
+checked:
+- https://composio.dev/toolkits/apotea
+- https://monid.ai/tools/apotea
+- https://n8n.io/integrations/apotea/
+- https://zapier.com/apps/apotea/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
